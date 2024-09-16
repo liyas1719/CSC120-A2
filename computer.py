@@ -8,19 +8,23 @@ class Computer:
     operating_system: str
     year_made: int
     price: int
-    inventory: list
+    # computer_info: list
+    # inventory: list
 
 
     # How will you set up your constructor?
     # Remember: in python, all constructors have the same name (__init__)
-    def __init__(self, inventory: list,
+    def __init__(self,
                     description: str,
                     processor_type: str,
                     hard_drive_capacity: int,
                     memory: int,
                     operating_system: str,
                     year_made: int,
-                    price: int):
+                    price: int,
+                    # computer_info: list,
+                    # inventory: list
+                    ):
         self.description = description
         self.processor_type = processor_type
         self.hard_drive_capacity = hard_drive_capacity
@@ -28,15 +32,16 @@ class Computer:
         self.operating_system = operating_system
         self.year_made = year_made
         self.price = price
-        self.inventory = inventory
+        # self.computer_info = computer_info
+        # self.inventory = inventory
 
-    def buy(self):
-        if self.description in self.inventory:
-            pass
-        else:
-            self.inventory.append(self.description)
+    # def buy(self):
+    #     if self.computer_info in self.inventory:
+    #         pass
+    #     else:
+    #         self.inventory.append(self.computer_info)
     
-        print (self.inventory)
+    #     print (self.inventory)
 
 def main():
     
@@ -47,7 +52,7 @@ def main():
         1024, 64,
         "macOS Big Sur", 2013, 1500, 
     )    # What methods will you need?
-    computer.buy()
+    # computer.buy()
     print(computer.description)
 
 #only call main() if i am running this program directly
