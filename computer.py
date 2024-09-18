@@ -32,7 +32,7 @@ class Computer:
 def main():
     
     # First, let's make a computer
-    computer = Computer( [],
+    computer = Computer(
         "Mac Pro (Late 2013)",
         "3.5 GHc 6-Core Intel Xeon E5",
         1024, 64,
