@@ -1,3 +1,5 @@
 Use this file to record your reflection on this assignment. 
 
 What worked, what didn't, what advice would you give someone taking this course in the future?
+
+i think that i found this assignment particularly difficut due to the fac that i had a lot of trouble figuring out how to make my different files interact. outside of that i did have some trouble figuring out how i wanted each computer to be added to the inventory and thinking through what is important to identify about a computer. i also had some trouble figuring out how to test my code: how do i make sure that my inventory still exists when i introduce a second computer. i liked this assignment though, because i could pretty easily understand what the program was supposed to do and once i was able to iron out the issues at the beginning it was pretty strightforward! my best piece of advice would be to go to ta hours!
