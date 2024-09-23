@@ -11,7 +11,7 @@ class Computer:
 
 
     # How will you set up your constructor?
-    # Remember: in python, all constructors have the same name (__init__)
+    # taking in all attributes of computer
     def __init__(self,
                     description: str,
                     processor_type: str,
@@ -29,6 +29,7 @@ class Computer:
         self.year_made = year_made
         self.price = price
 
+#giving example computer and printing description
 def main():
     
     # First, let's make a computer
