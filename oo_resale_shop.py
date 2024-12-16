@@ -3,18 +3,10 @@ from computer import Computer, main
 
 #creating new variables for resale shop
 class ResaleShop:
-    inventory: list
-    new_price: int
-    new_operating_system: str
 
     #creating inventory as list, and new price and new OS
-    def __init__ (self,
-                inventory: list,
-                new_price: int,
-                new_operating_system: str):
-        self.inventory = inventory
-        self.new_price = new_price
-        self.new_operating_system = new_operating_system
+    def __init__ (self):
+        self.inventory = []
 
     #buying a computer only if we don't own that computer already, adding to inventory when we buy
     #printing a completion message!
