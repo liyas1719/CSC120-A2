@@ -21,9 +21,9 @@ class ResaleShop:
             print ("Added ", computer.description, "to inventory!")
 
     #updating computer price. printing new price or error message if computer not found
-    def update_price(self, computer):
+    def update_price(self, computer, newprice):
         if computer in self.inventory:
-            computer.price = self.new_price
+            computer.price = newprice;
             print (computer.description, "price now $", computer.price)
         else:
             print("Item", computer.description, "not found. Cannot update price.")
@@ -86,7 +86,7 @@ def main():
     )    # What methods will you need?
     resaleshop = ResaleShop()
     resaleshop.buy(computer1)
-    resaleshop.update_price(computer1)
+    resaleshop.update_price(computer1, 1400)
     resaleshop.sell(computer1)
     resaleshop.print_inventory()
     resaleshop.refurbish(computer1)
