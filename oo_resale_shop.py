@@ -3,6 +3,8 @@ from computer import Computer, main
 
 #creating new variables for resale shop
 class ResaleShop:
+    inventory: list
+
 
     #creating inventory as list, and new price and new OS
     def __init__ (self):
@@ -12,6 +14,7 @@ class ResaleShop:
     #printing a completion message!
     def buy(self, computer):
         if computer in self.inventory:
+            print ("We already own this computer!")
             pass
         else:
             self.inventory.append(computer)
@@ -81,7 +84,7 @@ def main():
         1024, 64,
         "macOS Big Sur", 2013, 1500, 
     )    # What methods will you need?
-    resaleshop = ResaleShop([], 2000, "macOS Big Sur")
+    resaleshop = ResaleShop()
     resaleshop.buy(computer1)
     resaleshop.update_price(computer1)
     resaleshop.sell(computer1)
