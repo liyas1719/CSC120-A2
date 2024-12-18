@@ -97,7 +97,7 @@ def main():
         "macOS Small Sur", 2020, 3000, 
     )    # What methods will you need?=
     resaleshop.buy(computer2)
-    resaleshop.update_price(computer2)
+    resaleshop.update_price(computer2, 1200)
     resaleshop.sell(computer2)
     resaleshop.print_inventory()
     resaleshop.refurbish(computer2)

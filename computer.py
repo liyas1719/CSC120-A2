@@ -1,6 +1,5 @@
 class Computer:
 
-    # What attributes will it need?
     description: str
     processor_type: str
     hard_drive_capacity: int
@@ -9,8 +8,6 @@ class Computer:
     year_made: int
     price: int
 
-
-    # How will you set up your constructor?
     # taking in all attributes of computer
     def __init__(self,
                     description: str,
